@@ -16,7 +16,7 @@ Macro.add('char', {
 });
 
 :: StoryTitle
-Cinderella: Dual Perspective
+Modern Cinderella
 
 :: Start
 Tonight is the royal celebration.
@@ -26,7 +26,8 @@ You will decide the fate of this night. But first—
 <span class="important-question">Who do you want to be?</span>
 
 [[Play as a girl|Cinderella_Start]]
-[[Play as a noble heir (In Development)|Prince_Notice]]
+[[Play as a noble heir|Prince_Notice]]
+[[In Development|Start]]
 
 :: Prince_Notice
 This storyline is currently under development.
@@ -201,7 +202,7 @@ You run into the dark, holding hands.
 
 By the river, your gown fades. Your rags return.
 
-“<<char Rapel>>,” he says. “You haven’t changed. You were always the one who saw me.”
+“<<char Rapel>>,” he says. “You haven’t changed. You are always the one who see me.”
 
 “Let’s go,” he says. “No more palaces. No more masks.”
 
@@ -216,6 +217,9 @@ In a wooden house far away…
 “No,” he smiles. “Another quiet day.”
 
 The world didn’t need to know your names.
+
+<img src="assets/happy_ending.png" alt="Happy Ending" style="display: block; max-width: 100%; 
+margin: 0 auto 20px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
 
 [[Restart|Start]]
 

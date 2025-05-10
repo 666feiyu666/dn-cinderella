@@ -1,4 +1,4 @@
-# Cinderella: Dual Perspective
+# Modern Cinderella
 
 An interactive fiction game based on the classic fairy tale, offering story experiences from different character perspectives.
 
@@ -6,7 +6,7 @@ An interactive fiction game based on the classic fairy tale, offering story expe
 
 ## Game Overview
 
-"Cinderella: Dual Perspective" is a choice-based interactive fiction game that reimagines the classic fairy tale. You can choose to play as "Cinderella" or "The Noble Heir" (coming soon) and experience this story about identity, choices, and destiny through different perspectives.
+"Modern Cinderella" is a choice-based interactive fiction game that reimagines the classic fairy tale. You can choose to play as "Cinderella," "The Noble Heir," or other characters and experience this story about identity, choices, and destiny through different perspectives.
 
 Each decision affects the direction of the story, leading you to different endings. Will you choose to conform or rebel? Will you embrace opportunity or avoid risk? Your choices will determine how the story unfolds.
 
@@ -32,6 +32,14 @@ This project was built using the following technologies:
 - **Tweego**: Command-line compilation tool
 - **HTML/CSS**: Frontend interface design
 - **JavaScript**: Enhanced functionality and interactions
+
+## Future Development
+
+The future work of this project includes:
+
+- **Walkthrough**: A walkthrough to guide people on how to play
+- **BetterStory**: More perspectives as well as more interesting and inspiring story
+- **SuitableIllustration** Add proper illustrations for some of the passages 
 
 ## Running Locally
 
