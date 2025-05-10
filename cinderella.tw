@@ -35,6 +35,8 @@ This storyline is currently under development.
 [[Return|Start]]
 
 :: Cinderella_Start
+<img src="assets/start.png" alt="Happy Ending" style="display: block; max-width: 100%; 
+margin: 0 auto 20px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
 You wake up in a cold, smoky room, your clothes covered in ash.
 
 Your name is <<char Rapel>>. But no one calls you that anymore.
@@ -45,24 +47,24 @@ They call you "<<char Cinderella>>" —a girl who sleeps by the cinders.
 
 You clean, cook, and serve. You eat scraps. They pretend you don't exist.
 
-There was once someone who saw you—<<char Zela>>, your father’s adopted son. He vanished years ago, swallowed by the world beyond.
+You once had a friend named <<char Zela>>, who was your father’s adopted son. But he vanished years ago, swallowed by the world beyond.
 
-Tonight, your stepfamily is preparing for a grand palace celebration. All eligible young women are invited. The host, a noble heir, will choose someone to dance with.
+Tonight, your stepfamily is preparing for a grand palace celebration. All eligible young women are invited. 
 
-You were not invited.
+It's announced that the host, a noble heir, will choose someone to dance with.
 
-But something in you stirs. A voice that says: You are still here.
+You were not invited. But something in you stirs. 
 
 <span class="important-question">Will you let the night pass like all the rest?</span>
 
 [[Try to find a way to go|Act 0.1.1]]
 
 :: Act 0.1.1
-“Don’t even think about slacking off,” your <<char stepmother>> snaps. “Do you still want to eat today?”
+“Are you slacking off!” your <<char stepmother>> snaps. “Do you still want to eat today?”
 
 “Mother,” <<char Alyssa>> smirks, “how could Father have such an ugly daughter?”
 
-“Because he married a hideous woman first. Luckily she died, or I’d never have met him,” says your <<char stepmother>>.
+“Because his first wife was a peasant-bred wench. Thankfully, fate removed her—so he could marry up.” says your <<char stepmother>>.
 
 Your father enters. “Are your dressed ready? The celebration begins tonight.”
 
@@ -77,9 +79,40 @@ Before you can reply, your <<char stepmother>> cuts in. “She’s not going. Th
 <span class="important-question">What will you do?</span>
 
 [[“Of course I must go—it’s a celebration for all women.”|Act 0.1.2]]
-[[Stay silent|Act 0.1.2]]
+[[Stay silent|Act 0.1.3]]
 
 :: Act 0.1.2
+Your <<char stepmother>> just ignores your words. She wraps her arms around her daughters. “Tonight, charm him well. You’ll be queens before dawn.”
+
+They giggle. Then, shooting you a scornful look, she says to your father, “Don’t tell me you want that mongrel at the palace?”
+
+He stays silent.
+
+But later—when the house quiets—you find a folded bundle on your bed.
+
+A dress. Modest, but clean. One of your mother’s, carefully mended.
+
+You press it to your chest, stunned.
+
+Then the door bursts open.
+
+Your <<char stepmother>> stares at the dress. “So he does pity you.”
+
+She snatches it, marches to the hearth—
+—and tosses it into the flames.
+
+“Now,” she says, voice like cold iron, “you’ll stop dreaming.”
+
+The fabric curls and blackens. You don’t move.
+
+You are alone again.
+
+<span class="important-question">Should you escape, even if just for one night?</span>
+
+[[Yes- I’ll go. Let them see who my stepmother really is.|Act 1.1.1]]
+[[No—I don’t want to be abused again.|Act 0.2.1]]
+
+:: Act 0.1.3
 Your <<char stepmother>> wraps her arms around her daughters. “Tonight, charm him well. You’ll be queens before dawn.”
 
 They giggle. Then, shooting you a scornful look, she says to your father, “Don’t tell me you want that mongrel at the palace?”
@@ -88,14 +121,14 @@ He stays silent.
 
 You are alone again.
 
-You watch from the door as their carriage rolls toward the glowing palace.
-
 <span class="important-question">Should you escape, even if just for one night?</span>
 
-[[Yes|Act 1.1.1]]
-[[No—I don’t want to be beaten again.|Act 0.2.1]]
+[[Yes — just for a moment. Just to feel the air.|Act 1.1.1]]
+[[No—I don’t want to be abused again.|Act 0.2.1]]
 
 :: Act 0.2.1
+You flee.
+
 You stay behind and sleep.
 
 In the morning, voices stir you.
@@ -104,145 +137,344 @@ In the morning, voices stir you.
 
 “She’s dead? Good. Toss her out.”
 
-[[Restart|Start]]
+[[Continue|BadEnd1]]
 
 :: Act 1.1.1
-You sneak out into the night air. The palace glows in the distance.
+You walk to the window and wipe away the soot.
 
-Suddenly, a dove lands on your shoulder—carrying something shiny in its beak.
+A white dove perches on the sill. You've seen them often—doves nesting in the old tree behind the house.
 
-It drops a crystal shoe into your hands.
+You and <<char Zela>> built that nest once, long ago, with twigs and string and laughter.
 
-“<<char Cinderella>>,” it says. “This is yours.”
+He told you, “If you ever feel trapped, they’ll remember you.”
 
-You gasp. The bird… spoke.
+He vanished. But the doves never stopped coming.
+
+Suddenly, a dove lands on your shoulder—its feathers soft, its eyes bright.
+
+“<<char Rapel>>,” it says. “This is yours.”
+
+You are surprised. The bird… spoke?
 
 “This shoe holds power. Wear it, and you will become what you long to be.”
 
-“Why help me?”
+“Who are you?”
 
-“Years ago, you and a boy built us a home in an old tree. We’ve not forgotten.”
+“Years ago, you and a boy built us a home in the old tree. We remember you.”
 
 You slip it on. Your rags glow. A crystal gown flows down your arms. You are radiant.
 
-“I can fly you there,” says the dove. “But the magic will vanish at midnight.”
+The dove flutters to the floor. A pumpkin beside the hearth begins to shimmer—
+and transforms into a golden carriage, aglow with moonlight.
+
+“Step inside,” says the dove. “It will take you to the palace. But be warned—the magic ends at midnight.”
 
 [[Fly to the palace|Act 1.2.1]]
 
 :: Act 1.2.1
-The dove carries you above the rooftops.
+The golden carriage rolls past rooftops, lanterns, and breathless shadows.
 
-At the palace, music pours through every window. You enter the ballroom. People whirl in perfect rhythm.
+At the palace, music spills through every window. Light trembles on the marble steps.
+
+You enter the ballroom. People whirl in perfect rhythm—gowns shimmer, masks glint, and laughter dances on the air.
 
 A woman in black commands the floor, dancing with the heir of the realm.
 
 He looks… familiar.
 
-<span class="important-question">Do you dare step forward?</span>
+Then, sharp as broken glass—
 
-[[Invite him to dance|Act 1.3.1]]
-[[Slip away unnoticed|Act 4.1.3]]
+“You!”
+
+Your <<char stepmother>> stands near the orchestra, wine in hand, eyes wide with fury.
+Beside her, <<char Alyssa>> drops her glass. <<char Mary>> stares, pale with disbelief.
+
+“She doesn’t belong here!” your stepmother cries. “She’s a servant. A thief in silk!”
+
+Guests pause. Whispers stir.
+
+But no one moves.
+
+Not yet.
+
+The heir has turned toward you.
+
+<span class="important-question">Will you stay and face them, or run before they tear you down?</span>
+
+[[Speak up - defend yourself|Act 1.3.1]]
+[[Run before they humiliate you further|Act 0.2.1]]
 
 :: Act 1.3.1
-You approach him.
+You step forward.
+
+“She is my stepmother,” you say, voice trembling—but clear. “And I served her and her daughters for years.”
+
+Gasps ripple through the ballroom.
+
+“I swept their floors, scrubbed their gowns, cooked their meals. I obeyed, I endured. Not because I was nothing—but because I still believed they were my family.”
+
+You meet your <<char stepmother>>'s eyes.
+
+“But what did they give in return? Cruelty. Silence. Shame.”
+
+She stiffens. <<char Alyssa>> looks away. <<char Mary>> clenches her jaw.
+
+You turn toward the hall.
+
+“If I’m unworthy, it’s not because of my name or dress. It’s because I lived in a house where kindness was seen as weakness—and ashes were easier to ignore than truth.”
+
+The room holds its breath.
+
+[[Your stepmother laughed out loud|Act 1.3.2]]
+
+:: Act 1.3.2
+A sharp laugh slices through the silence.
+
+“Touching,” your <<char stepmother>> says, stepping forward. “Truly.”
+
+She sweeps the room with a mocking gaze. “And this is the daughter you still protect?” she says to your father. “A liar in stolen silk?”
+
+He falters. Says nothing.
+
+“She always wanted to be more than she is,” she continues. “Now look at her—standing here like she belongs.”
+
+Murmurs ripple. You feel a chill against your spine.
+
+Then a voice cuts through the noise.
+
+“Enough,” says the heir.
+
+He moves between you and the crowd, calm but firm. “Whatever this night was meant to be, let it not forget itself.”
+
+He turns to you. “You stood your ground. That matters more than title or dress.”
+
+He offers his hand.
 
 “May I have this dance?”
 
-He studies your face. Then smiles. “It would be my honor.”
+[[You hesitate-then take his hand| Act 1.4.1]]
 
-You dance. Somehow, you match every step. The crowd parts.
+:: Act 1.4.1
+Music begins again, cautious at first, then swelling as you both step onto the floor.
 
-At the edge of the ballroom, the King leans toward the heir. “She’s not noble. You cannot choose her.”
+The crowd parts. Silk rustles. Eyes widen.
 
-“She is alive,” the heir replies quietly.
+No one dares stop you.
 
-He leaves the hall in frustration.
+You dance.
 
-A servant approaches. “He would like to meet you in the garden.”
+Not with perfection, but with certainty. He moves in time with you, as if you’ve done this before—in dreams, perhaps.
 
-Midnight is near.
+Whispers surge at the edges of the ballroom.
+
+“Who is she?”
+“She spoke like she was born in the palace.”
+“No—like she built it.”
+
+Your <<char stepmother>> stares, unmoving. <<char Alyssa>> clutches her fan until it cracks. <<char Mary>> is pale with fury.
+
+But you don’t look back.
+
+The song ends. The room exhales.
+
+Then—a servant appears at the edge of the dance floor.
+
+“The heir requests your presence,” he says quietly. “In the garden.”
+
+You glance at the clock.
+
+Midnight creeps closer.
 
 [[Go to the garden|Act 2.1.1]]
-[[Leave before it’s too late|Act 4.1.3]]
 
 :: Act 2.1.1
-You find him speaking with the woman in black.
+You find him in the garden.
+
+He is speaking with the woman in black. Her gown catches the moonlight like oil on water—sleek, sharp, untouchable.
 
 “…I won’t be traded like a coin,” he says.
 
-She answers, “We are heirs. That is the role.”
+She answers, cool and exact. “We are heirs. That is our role.”
 
-He pauses. She doesn’t understand.
+He falls silent.
 
-You do.
+She doesn’t understand.
 
-[[Interrupt them|Act 3.1.1]]
-[[Slip away into the night|Act 0.2.1]]
+But you do.
+
+You step forward.
+
+“What about what he truely wants?”
+
+She turns. Slowly. Her eyes narrow, as if you’ve interrupted something sacred.
+
+“You again.”
+
+Her voice slices the night.
+
+“He is duty. I am strategy. That’s what matters.”
+
+He looks at you then—truly looks. There’s confusion in his gaze. A flicker of something else.
+
+But he says nothing.
+
+The woman in black watches a moment longer.
+
+Then, with a faint exhale, she turns away.
+
+“I won’t stay to witness this… fantasy.”
+
+She vanishes into the dark.
+
+The garden falls still.
+
+Above, the clock begins to chime.
+
+Not yet midnight. But close.
+
+The air tightens. Your gown hums faintly with tension.
+
+<span class="important-question">Do you stay—knowing the magic will fade?</span>
+
+[[Stay — whatever happens, he deserves the truth.|Act 3.1.1]]
+[[Run — before he sees who you really are.|Act 3.1.2]]
 
 :: Act 3.1.1
-You speak. “What about what he wants?”
+You stay.
 
-The woman glares. “He is duty. I am strategy. That’s what matters.”
+The clock tolls again. Eleven fifty-six.
 
-“But he’s still human,” you say.
+The air shifts.
 
-The heir looks at you—really looks. “You… I know you.”
+You feel the gown grow heavier, the shimmer dissolve into night. The shoes tremble on your feet, then crack.
 
-“I’m <<char Cinderella>>.”
+You lower your eyes, ashamed.
 
-“Then come with me. Let’s leave this place.”
+Then—his voice, softer than before.
 
-The clock begins to chime.
+“Rapel…”
 
-[[Take his hand|Act 3.1.2]]
-[[Run before he sees the truth|Act 4.1.3]]
+You glance up.
+
+He takes a step forward.
+
+“I am Zela,” he says. “Do you remember me?”
+
+You can’t speak. But you nod.
+
+“I never forgot,” he says. “Not the tree. Not the birds. Not you.”
+
+He looks down at your hands, at the ashes blooming in your skirt.
+
+“You’re not the girl they said you were. You never were.”
+
+He offers his hand, steady and open.
+
+“Come with me. Before this place decides who we have to be.”
+
+[[Run away together|GoodEnd]]
+[[Say goodbye—we'll see each other again|BadEnd2]]
 
 :: Act 3.1.2
-You run into the dark, holding hands.
+You turn to run.
 
-By the river, your gown fades. Your rags return.
+The magic is unraveling fast—fabric dulling, light slipping through your fingers. You’re almost at the gate.
 
-“<<char Rapel>>,” he says. “You haven’t changed. You are always the one who see me.”
+Then, behind you:
 
-“Let’s go,” he says. “No more palaces. No more masks.”
+“Rapel…”
 
-[[Run away together|Act 4.1.1]]
-[[Say goodbye—it’s too dangerous|Act 4.1.2]]
+You freeze.
 
-:: Act 4.1.1
+“I am Zela,” he says, voice just above a whisper. “Do you remember me?”
+
+You turn slowly.
+
+His face is no longer the heir’s. No crown, no mask. Just a boy you once knew—grown taller, but still him.
+
+“I never forgot,” he says. “You were the only one who saw me.”
+
+He steps closer.
+
+“I don’t want the throne. I want to be free. With you.”
+
+<span class="important-question">Do you stop running—just this once?</span>
+
+[[Run away together|GoodEnd]]
+[[Say goodbye — we'll see each other again|BadEnd2]]
+
+
+:: GoodEnd
 In a wooden house far away…
 
 “Anyone searching?” you ask.
 
 “No,” he smiles. “Another quiet day.”
 
-The world didn’t need to know your names.
+You and Zela lives happily ever after.
 
 <img src="assets/happy_ending.png" alt="Happy Ending" style="display: block; max-width: 100%; 
 margin: 0 auto 20px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
 
 [[Restart|Start]]
 
-:: Act 4.1.2
-You leave him behind.
+:: BadEnd1
+You never went to the palace.
 
-Back home, the cruelty continues.
+You stayed.
 
-You never tell anyone about the ball.
+You cleaned the soot from the hearth. You scrubbed the dishes. You swept the stairs.
+
+Just as you always did.
+
+They never asked you where you would have gone.  
+They never spoke of the celebration again.  
+It passed without you—like every other thing.
+
+Your <<char stepmother>> grew quieter in her cruelty.  
+<<char Alyssa>> and <<char Mary>> stopped mocking you.  
+They no longer needed to.
+
+Even your father forgot to look at you.
+
+The days passed.
+
+You learned how to stay silent before you were asked to.
+
+You learned how to make yourself small, then smaller.
+
+One day, you woke up and couldn't remember what your real name was.
+
+Not <<char Rapel>>. Not <<char Cinderella>>. Just no one at all.
+<img src="assets/badend1.png" alt="Bad Ending1" style="display: block; max-width: 100%; 
+margin: 0 auto 20px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
 
 [[Restart|Start]]
 
-:: Act 4.1.3
-You flee. The magic fades. You trip and fall.
+:: BadEnd2
+You return home with your back straight and your eyes still burning.
 
-He sees you—just a girl in rags.
+They saw you speak. They saw you stand.
 
-“I thought you were different,” he says.
+Your <<char stepmother>> does not raise her voice.
 
-Your <<char stepmother>> finds out.
+Instead, she lowers it.
 
-The beatings worsen.
+“She thinks she can humiliate me in front of nobles,” she says.  
+“To spit on everything I’ve built. My daughters. My name.”
 
-You dream of the girl you could have been.
+<<char Alyssa>> and <<char Mary>> say nothing. They no longer mock. They watch you like something fragile—already cracked.
+
+Then one morning… you are not in the house.
+
+No one speaks of you.
+
+Some say you ran away.  
+Some say you never existed.  
+The ashes are cleaned. The silence remains.
+
+The girl by the fire is gone.
+<img src="assets/badend2.png" alt="Bad Ending2" style="display: block; max-width: 100%; 
+margin: 0 auto 20px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
 
 [[Restart|Start]]

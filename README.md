@@ -1,8 +1,8 @@
 # Modern Cinderella
 
 An interactive fiction game based on the classic fairy tale, offering story experiences from different character perspectives.
-
-![Game Screenshot](assets/screenshot.png)
+![Game Screenshot](assets/screenshot1.png)
+![Game Screenshot](assets/screenshot2.png)
 
 ## Game Overview
 
