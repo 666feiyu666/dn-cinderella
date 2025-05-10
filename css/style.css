@@ -10,9 +10,10 @@ body {
 
 #passages {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 2em;
+  padding: 1.5em;
+  font-size: 1.1em; 
   border-radius: 12px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -33,6 +34,7 @@ body {
   text-decoration: none;
   transition: all 0.3s ease;
   max-width: 90%;
+  font-size: 1.5em; 
   text-align: center; /* 居中文本 */
 }
 
@@ -41,4 +43,12 @@ body {
   color: #66b5ff; /* 悬停时字体变为更亮的蓝色 */
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Important question in each section */
+.important-question {
+  background-color: rgba(74, 134, 232, 0.3);
+  padding: 3px 6px;
+  font-weight: bold;
+  font-size: 1.3em; 
 }
