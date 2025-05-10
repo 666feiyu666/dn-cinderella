@@ -20,3 +20,25 @@ body {
   font-weight: bold;
   color: #ffd700;
 }
+
+/* option button style */
+.passage a[data-passage] {
+  display: block;
+  margin: 1px 0; /* 减少间距 */
+  padding: 12px 20px;
+  background-color: transparent; /* 移除专有背景色 */
+  border: 2px solid #ffd700; /* 金色边框 */
+  border-radius: 8px;
+  color: #4a86e8; /* 蓝色字体 */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  max-width: 90%;
+  text-align: center; /* 居中文本 */
+}
+
+.passage a[data-passage]:hover {
+  background-color: rgba(0, 0, 0, 0.3); /* 悬停时背景稍微变暗 */
+  color: #66b5ff; /* 悬停时字体变为更亮的蓝色 */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
