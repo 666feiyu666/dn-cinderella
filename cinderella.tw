@@ -1,0 +1,244 @@
+:: StoryData
+{
+  "ifid": "A7B9AB25-4E3E-4248-BEFB-AFCE64E7A518"
+}
+
+:: StoryStylesheet [stylesheet]
+@import url("css/main.css");
+
+:: StoryJavaScript [script]
+// build a "char" to handle character names
+Macro.add('char', {
+    handler: function() {
+        var name = this.args.join(" ");
+        $(this.output).append("<span class='character-name'>" + name + "</span>");
+    }
+});
+
+:: StoryTitle
+Cinderella: Dual Perspective
+
+:: Start
+Tonight is the royal celebration.
+
+You will decide the fate of this night. But first—
+
+Who do you want to be?
+
+[[Play as a girl|Cinderella_Start]]
+[[Play as a noble heir (In Development)|Prince_Notice]]
+
+:: Prince_Notice
+This storyline is currently under development.
+
+[[Return|Start]]
+
+:: Cinderella_Start
+You wake up in a cold, smoky room, your clothes covered in ash.
+
+Your name is <<char Rapel>>. But no one calls you that anymore.
+
+Years ago, your mother died. Your father remarried a noblewoman with two daughters. Since then, your life has become one of silence and soot.
+
+They call you "<<char Cinderella>>" —a girl who sleeps by the cinders.
+
+You clean, cook, and serve. You eat scraps. They pretend you don't exist.
+
+There was once someone who saw you—<<char Zela>>, your father’s adopted son. He vanished years ago, swallowed by the world beyond.
+
+Tonight, your stepfamily is preparing for a grand palace celebration. All eligible young women are invited. The host, a noble heir, will choose someone to dance with.
+
+You were not invited.
+
+But something in you stirs. A voice that says: You are still here.
+
+Will you let the night pass like all the rest?
+
+[[Try to find a way to go|Act 0.1.1]]
+
+:: Act 0.1.1
+“Don’t even think about slacking off,” your <<char stepmother>> snaps. “Do you still want to eat today?”
+
+“Mother,” <<char Alyssa>> smirks, “how could Father have such an ugly daughter?”
+
+“Because he married a hideous woman first. Luckily she died, or I’d never have met him,” says your <<char stepmother>>.
+
+Your father enters. “Are your dressed ready? The celebration begins tonight.”
+
+“Of course,” <<char Alyssa>> says. “My gown is stunning.”
+
+<<char Mary>> sneers, “Mine will make the heir forget all others.”
+
+He turns to you, gently. “And you, my daughter?”
+
+Before you can reply, your <<char stepmother>> cuts in. “She’s not going. That filth would disgrace the palace.”
+
+What will you do?
+
+[[“Of course I must go—it’s a celebration for all women.”|Act 0.1.2]]
+[[Stay silent|Act 0.1.2]]
+
+:: Act 0.1.2
+Your <<char stepmother>> wraps her arms around her daughters. “Tonight, charm him well. You’ll be queens before dawn.”
+
+They giggle. Then, shooting you a scornful look, she says to your father, “Don’t tell me you want that mongrel at the palace?”
+
+He stays silent.
+
+You are alone again.
+
+You watch from the door as their carriage rolls toward the glowing palace.
+
+Should you escape, even if just for one night?
+
+[[Yes|Act 1.1.1]]
+[[No—I don’t want to be beaten again.|Act 0.2.1]]
+
+:: Act 0.2.1
+You stay behind and sleep.
+
+In the morning, voices stir you.
+
+“Mother, she’s not moving.”
+
+“She’s dead? Good. Toss her out.”
+
+[[Restart|Start]]
+
+:: Act 1.1.1
+You sneak out into the night air. The palace glows in the distance.
+
+Suddenly, a dove lands on your shoulder—carrying something shiny in its beak.
+
+It drops a crystal shoe into your hands.
+
+“<<char Cinderella>>,” it says. “This is yours.”
+
+You gasp. The bird… spoke.
+
+“This shoe holds power. Wear it, and you will become what you long to be.”
+
+“Why help me?”
+
+“Years ago, you and a boy built us a home in an old tree. We’ve not forgotten.”
+
+You slip it on. Your rags glow. A crystal gown flows down your arms. You are radiant.
+
+“I can fly you there,” says the dove. “But the magic will vanish at midnight.”
+
+[[Fly to the palace|Act 1.2.1]]
+
+:: Act 1.2.1
+The dove carries you above the rooftops.
+
+At the palace, music pours through every window. You enter the ballroom. People whirl in perfect rhythm.
+
+A woman in black commands the floor, dancing with the heir of the realm.
+
+He looks… familiar.
+
+Do you dare step forward?
+
+[[Invite him to dance|Act 1.3.1]]
+[[Slip away unnoticed|Act 4.1.3]]
+
+:: Act 1.3.1
+You approach him.
+
+“May I have this dance?”
+
+He studies your face. Then smiles. “It would be my honor.”
+
+You dance. Somehow, you match every step. The crowd parts.
+
+At the edge of the ballroom, the King leans toward the heir. “She’s not noble. You cannot choose her.”
+
+“She is alive,” the heir replies quietly.
+
+He leaves the hall in frustration.
+
+A servant approaches. “He would like to meet you in the garden.”
+
+Midnight is near.
+
+[[Go to the garden|Act 2.1.1]]
+[[Leave before it’s too late|Act 4.1.3]]
+
+:: Act 2.1.1
+You find him speaking with the woman in black.
+
+“…I won’t be traded like a coin,” he says.
+
+She answers, “We are heirs. That is the role.”
+
+He pauses. She doesn’t understand.
+
+You do.
+
+[[Interrupt them|Act 3.1.1]]
+[[Slip away into the night|Act 0.2.1]]
+
+:: Act 3.1.1
+You speak. “What about what he wants?”
+
+The woman glares. “He is duty. I am strategy. That’s what matters.”
+
+“But he’s still human,” you say.
+
+The heir looks at you—really looks. “You… I know you.”
+
+“I’m <<char Cinderella>>.”
+
+“Then come with me. Let’s leave this place.”
+
+The clock begins to chime.
+
+[[Take his hand|Act 3.1.2]]
+[[Run before he sees the truth|Act 4.1.3]]
+
+:: Act 3.1.2
+You run into the dark, holding hands.
+
+By the river, your gown fades. Your rags return.
+
+“<<char Rapel>>,” he says. “You haven’t changed. You were always the one who saw me.”
+
+“Let’s go,” he says. “No more palaces. No more masks.”
+
+[[Run away together|Act 4.1.1]]
+[[Say goodbye—it’s too dangerous|Act 4.1.2]]
+
+:: Act 4.1.1
+In a wooden house far away…
+
+“Anyone searching?” you ask.
+
+“No,” he smiles. “Another quiet day.”
+
+The world didn’t need to know your names.
+
+[[Restart|Start]]
+
+:: Act 4.1.2
+You leave him behind.
+
+Back home, the cruelty continues.
+
+You never tell anyone about the ball.
+
+[[Restart|Start]]
+
+:: Act 4.1.3
+You flee. The magic fades. You trip and fall.
+
+He sees you—just a girl in rags.
+
+“I thought you were different,” he says.
+
+Your <<char stepmother>> finds out.
+
+The beatings worsen.
+
+You dream of the girl you could have been.
+
+[[Restart|Start]]

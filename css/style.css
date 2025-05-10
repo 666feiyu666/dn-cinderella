@@ -1,0 +1,22 @@
+body {
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Georgia", serif;
+}
+
+#passages {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2em;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.character-name {
+  font-weight: bold;
+  color: #ffd700;
+}

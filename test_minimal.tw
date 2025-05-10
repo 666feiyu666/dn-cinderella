@@ -1,0 +1,20 @@
+:: StoryData
+{
+        "ifid": "1360A604-44F8-4811-8214-A6FA7A348A68"
+}
+
+:: StoryTitle
+CSS Test
+
+:: StoryStylesheet
+body {
+  background-color: darkred;
+}
+
+:: Start
+Hello, this is a test.
+
+[[Next|Next]]
+
+:: Next
+Did the background color change?
